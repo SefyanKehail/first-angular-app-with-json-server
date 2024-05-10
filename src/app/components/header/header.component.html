@@ -1,0 +1,28 @@
+<div class="p-3 navbar">
+  <ul class="nav nav-pill">
+    <li>
+      <button (click)="goToHome()" class="btn btn-outline-primary ms-2" [ngClass]="activeTab === 'home' ? 'active' : ''">
+        Home <i class="bi bi-house"></i>
+      </button>
+    </li>
+    <li>
+      <button (click)="goToProducts()" class="btn btn-outline-primary ms-2" [ngClass]="activeTab === 'products' ? 'active' : ''">
+        Product <i class="bi bi-cart"></i>
+      </button>
+    </li>
+    <li>
+      <button *ngIf="authService.isAdmin()" (click)="goToNewProduct()" class="btn btn-outline-primary ms-2" [ngClass]="activeTab === 'new-product' ? 'active' : ''">
+        New Product <i class="bi bi-plus-circle"></i>
+      </button>
+    </li>
+    <li>
+      <div class="ms-2 spinner-border" role="status" *ngIf="loadingService.loading$ | async"></div>
+    </li>
+  </ul>
+  <ul>
+    <ng-container *ngIf="authService.checkAuth()">
+      <i class="bi bi-person"> {{authService.getUser().username}}</i> &nbsp; | &nbsp;
+      <button type="button" class="bg-secondary btn text-white" (click)="authService.logout()">Logout</button>
+    </ng-container>
+  </ul>
+</div>

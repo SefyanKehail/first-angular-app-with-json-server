@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJ1c2VybmFtZSI6InVzZXIxIiwicGFzc3dvcmQiOiIxMjM0Iiwicm9sZXMiOlsiVVNFUiJdfQ.csCCZ90W_Q0O_mwKnAYUW1vNpuGYvJRcrj4DbooFQ0o"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6InVzZXIyIiwiaWF0IjoxNTE2MjM5MDIyLCJ1c2VybmFtZSI6InVzZXIyIiwicGFzc3dvcmQiOiIxMjM0Iiwicm9sZXMiOlsiVVNFUiJdfQ.6ShvE36_cMIlGafTwY-FUUn0LZi2RaA99Y2zaucUfmM"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "password": "1234",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJpZCI6MywidXNlcm5hbWUiOiJhZG1pbiIsInBhc3N3b3JkIjoiMTIzNCIsInJvbGVzIjpbIkFETUlOIiwiVVNFUiJdfQ.-SlCI_sAc107PIqh6ASVlOZEvrFQATuItPyPp73to3U"
+    }
+  ],
+  "products": [
+    {
+      "id": 9,
+      "name": "DJI Air 2S Drone",
+      "price": 1,
+      "is_checked": true
+    },
+    {
+      "id": 10,
+      "name": "Google Nest Hub (2nd Gen)",
+      "price": 99.99,
+      "is_checked": false
+    },
+    {
+      "id": 11,
+      "name": "Microsoft Surface Pro 8",
+      "price": 899.99,
+      "is_checked": true
+    },
+    {
+      "id": 12,
+      "name": "Huawei MateBook X Pro",
+      "price": 1399.99,
+      "is_checked": false
+    },
+    {
+      "id": 13,
+      "name": "Garmin Instinct Solar",
+      "price": 399.99,
+      "is_checked": true
+    },
+    {
+      "id": 14,
+      "name": "Canon EOS R6",
+      "price": 2499.99,
+      "is_checked": true
+    },
+    {
+      "id": 15,
+      "name": "LG OLED65C1PUA OLED TV",
+      "price": 2499.99,
+      "is_checked": true
+    },
+    {
+      "id": 16,
+      "name": "Razer BlackWidow V3 Mechanical Gaming Keyboard",
+      "price": 139.99,
+      "is_checked": true
+    },
+    {
+      "id": 17,
+      "name": "Xbox Elite Wireless Controller Series 2",
+      "price": 179.99,
+      "is_checked": true
+    },
+    {
+      "id": 23,
+      "name": "Samsung 49-Inch Odyssey G9 Gaming Monitor",
+      "price": 1499.99,
+      "is_checked": true
+    },
+    {
+      "id": 24,
+      "name": "Fitbit Charge 5",
+      "price": 179.99,
+      "is_checked": true
+    },
+    {
+      "id": 25,
+      "name": "Nikon D850",
+      "price": 2999.99,
+      "is_checked": true
+    },
+    {
+      "id": 26,
+      "name": "Bose QuietComfort Earbuds",
+      "price": 279.99,
+      "is_checked": false
+    },
+    {
+      "id": 27,
+      "name": "ASUS ROG Strix G15 Gaming Laptop",
+      "price": 1299.99,
+      "is_checked": true
+    },
+    {
+      "id": 28,
+      "name": "GoPro MAX",
+      "price": 499.99,
+      "is_checked": false
+    },
+    {
+      "id": 29,
+      "name": "DJI Mini 2 Drone",
+      "price": 449.99,
+      "is_checked": true
+    },
+    {
+      "id": 30,
+      "name": "Google Pixel 6",
+      "price": 699.99,
+      "is_checked": false
+    },
+    {
+      "id": 31,
+      "name": "Apple MacBook Pro 16-inch (2021)",
+      "price": 2399.99,
+      "is_checked": true
+    },
+    {
+      "id": 32,
+      "name": "Samsung 55-Inch QN90A Neo QLED 4K TV",
+      "price": 1899.99,
+      "is_checked": false
+    },
+    {
+      "id": 33,
+      "name": "Microsoft Xbox Series X",
+      "price": 499.99,
+      "is_checked": true
+    },
+    {
+      "id": 34,
+      "name": "Sony Alpha 7 IV",
+      "price": 2499.99,
+      "is_checked": false
+    },
+    {
+      "id": 35,
+      "name": "LG C1 55-Inch OLED TV",
+      "price": 1999.99,
+      "is_checked": true
+    },
+    {
+      "id": 36,
+      "name": "Logitech MX Master 3 Wireless Mouse",
+      "price": 99.99,
+      "is_checked": false
+    },
+    {
+      "name": "A",
+      "price": 1,
+      "is_checked": false,
+      "id": 37
+    },
+    {
+      "name": "B",
+      "price": 2,
+      "is_checked": true,
+      "id": 38
+    },
+    {
+      "name": "A222",
+      "price": 12,
+      "is_checked": true,
+      "id": 39
+    },
+    {
+      "name": "B111",
+      "price": 2222,
+      "is_checked": true,
+      "id": 40
+    },
+    {
+      "name": "aaaaaaa",
+      "price": 231321,
+      "is_checked": true,
+      "id": 41
+    }
+  ],
+  "errors": [
+    {
+      "context": "login",
+      "message": "Wrong Credentials"
+    },
+    {
+      "context": "products",
+      "message": "Failed to fetch products"
+    }
+  ]
+}

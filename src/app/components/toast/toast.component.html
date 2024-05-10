@@ -1,0 +1,7 @@
+<div *ngIf="toastService.status$ | async" class="m-3 alert alert-danger d-flex justify-content-between align-items-center" role="alert">
+  {{ toastService.message$ | async }}
+  <button type="button" class="btn btn-outline-danger p-1" (click)="toastService.hide()">
+    <i class="bi bi-x w-25"></i>
+  </button>
+</div>
+

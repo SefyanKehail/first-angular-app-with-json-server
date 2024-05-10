@@ -1,27 +1,40 @@
 # FirstAngularApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+Application for managing products lists and authentication / roles
 
-## Development server
+# Technologies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### 1)  Angular: 17.3.7
+#### 2) Node: 20.11.1
+#### 3) Bootstrap 5.3.3
+#### 4) JSON-SERVER as fake backend.
 
-## Code scaffolding
+# Covered topics
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### 1) Right use of services
+#### 2) Managing states using Behaviour Subjects
+#### 3) Getting familiar with Lifecycle Hooks and Change Detection Mechanism
+#### 4) Reactive Forms
+#### 5) Stateless Authentication ( I should have stored JWT tokens in secure HttpOnly cookies, but I used session storage for simplification)
+#### 6) Functional Route Guards
+#### 7) Http Interceptors
+#### 9) Reusable Custom Toast Messages
+#### 10) From scratch pagination
+#### 11) Environment variables
 
-## Build
+# Start App:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Angular server:
+<code>npm run start</code> or <code>ng serve</code>
 
-## Running unit tests
+JSON server:
+<code>json-server --watch ./fake-database/db.json -p 8089 -H 0.0.0.0
+</code>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Important:
 
-## Further help
+Please make sure to install this version of JSON-SERVER 0.17.4 or the search feature is not available:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<code>npm install -g json-server@0.17.4</code>
